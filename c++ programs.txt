@@ -1,0 +1,44 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+    vector<int>v1{10,20,30,40,50};
+    vector<int>v2{1,2,3,4,5,6,7,8,9};
+    vector<string>v3(3,"satyam");
+
+        cout<< v1.capacity()<<endl;
+        cout<<v1.size()<<endl;
+            cout<<"Elements are : "<<endl;
+
+    for(int i=1;i<=v1.size();i++)
+        cout<<v1[i]<<endl;
+
+    
+    for(vector<int>::iterator i=v2.begin(); i!= v2.end();i++)
+        cout<< *i<<" ";
+
+    
+    cout<<endl;
+    
+   for(int k=0;k<v3.size();k++)
+       cout<<v3[k]<<" ";
+    
+    cout<<endl;
+
+    
+    v3.pop_back();
+     for(int k=0;k<v3.size();k++)
+       cout<<v3[k]<<" ";
+    
+
+    
+        return 0;
+}    
+    
+    /*{10,20,30,40,50};
+    for(int i=0;i<=3;i++)
+        cout<<"elements are: "<<endl;
+        cout<<v1[i]<<endl;
+        return 0;
+}*/
