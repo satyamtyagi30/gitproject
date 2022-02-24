@@ -10,6 +10,7 @@ int main() {
     cout << "Enter a positive integer: ";
 
     cin >> number;//B MADE A CHANGE HERE 
+    if (number == 100) cout<<"invalid number!";
     cin >> number_changed_by_A;//a made changed here
 
     if (n < 0)
