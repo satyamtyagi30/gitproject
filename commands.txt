@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name satyam
+git config --global user.email satyam.tyagi@lumiq.ai
+git init
+git add .
+git commit -m "initial commit"
+git status #just to see
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDL4TY4BhDkFXQqNnU4tL8f7XP0ol6Yk/4ZlO0FgJPDb98Z55dtkqJPlUhJ4wpBhRRrLg+GneZmjCE1rsUPL5w1nM3Tg4KOgYK9S3KnsEEYnQ9aA5e1pI/LJX+S2SbkBuvHA78paOmIZJYZOYwVsW8qZ+LvZ5p2JeEn7Qj9FWtf8xq9P6SWQddO3R6dHzTIjwYulrepIRBTfbRxRaoxfc1MoEBL/E+JsEK780wVfZR/SGuAP/W3B12oK5cthlLbX23oYwIiOLhnYtwAzDqqPfDJUi1thunepV9T8RZTL23M/KO0emdHXkpmkZgGZ/bSy+CNrUFW9INWEjOFfymo9CSJoQMEbFttNym/Zsd3P4Aofdqr5D9+6wgjdvE0/lfB57oRFhCn7AodB3bAx4uGoZ88j17kEkHDnsObwSQPL+JqCharPhuHQzh7MzChNTZO3loeTnU9x1O+le7AcvecJuHtdvuxoeqkiEPn70tkX281rZy7OOAg98kfQHhqxOU5ffR9x+9FcYLS34OcJcigDssKbcn1PMPbh7MiOMqhZR5Gt40vyD7zKHjMQc2rr7d1XDagqUjAIlc5s6DXj/Vx0J5Q/HJ+ytAq7WxSJZnP27XdiyV+ri3sLt4FOI6dbdYV6i3xaXVtJUAj17yLgJ+XcGsxEumK7HDXTNLwb2xquas/Hw== satyam.tyagi@lumiq.ai
+git remote add origin
+git push origin master
+
