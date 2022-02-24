@@ -1,0 +1,10 @@
+ctx.save();  
+ctx.font = "Bold 14pt Verdana";  
+drawText(320, 080, "DEEPAK DWIJ", "#505050");  
+ctx.font = "12pt Arial";  
+drawText(320, 120, "Software Developer", "#505050");  
+drawText(320, 140, "105 2nd Street", "#505050");  
+drawText(320, 160, "Fortis H 121 Noida", "#505050");  
+drawText(320, 180, "Mb no.-9123456789 ", "#505050");  
+drawText(320, 200, "developer.dwij@gmail.com", "#2f76b2");  
+ctx.restore(); 

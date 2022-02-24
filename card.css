@@ -1,0 +1,39 @@
+<style>  
+.card-container  
+{  
+   text-align: center;  
+   margin-bottom: 2.5em;  
+   margin-top:2 em;  
+}  
+#canvas  
+{  
+   border: 1px solid #FFC125;  
+   background-color: #FFEBCD;  
+   -moz-box-shadow: 3px 3px 8px #222;  
+   -webkit-box-shadow: 3px 3px 8px #222;  
+   box-shadow: 3px 3px 8px #222;  
+}  
+.title  
+{  
+   text-align: center;  
+   font-family: Segoe UI Light, Arial, Helvetica;  
+   font-size: 2.2em;  
+   margin: 1em;  
+}  
+.info  
+{  
+   text-align: center;  
+   font-family: Segoe UI Light, Arial, Helvetica;  
+   font-size: 1.2em;  
+   margin: 0.25em;  
+}  
+a, a:visited, a:active, a:hover  
+{  
+   color: #fff;  
+   text-decoration: none;  
+}  
+a:hover  
+{  
+   text-decoration: underline;  
+}  
+</style>
