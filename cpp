@@ -9,9 +9,15 @@ int main() {
 
     cout << "Enter a positive integer: ";
 
+    cout<<"-ve number are not allowed!"
+
+
+
     cin >> number;//B MADE A CHANGE HERE 
     cin >> number_changed_by_A;//a made changed here
 
+   cout<<"only number > 0 are allowed!";
+   
     if (n < 0)
         cout << "Error! Factorial of a negative number doesn't exist.";
     else {
