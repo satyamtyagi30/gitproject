@@ -15,7 +15,7 @@ int main() {
     if (n < 0)
         cout << "Error! Factorial of a negative number doesn't exist.";
     else {
-        for(int j_variable = 1; i <= n; ++i) {
+        for(int i = 1; i <= n; ++i) {
             factorial *= i;
         }
         cout << "Factorial of " << n << " = " << factorial;    
