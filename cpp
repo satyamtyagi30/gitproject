@@ -21,5 +21,8 @@ int main() {
         cout << "Factorial of " << n << " = " << factorial;    
     }
 
+
+    cout<<"this is program to find factorial of a number!! eg: 3!= 6 , 4!= 24 , 5! = 120"<<endl;
+
     return 0;
 }
