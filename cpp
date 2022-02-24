@@ -8,7 +8,9 @@ int main() {
     long double factorial = 1.0;
 
     cout << "Enter a positive integer: ";
+
     cin >> number;//B MADE A CHANGE HERE 
+    cin >> number_changed_by_A;//a made changed here
 
     if (n < 0)
         cout << "Error! Factorial of a negative number doesn't exist.";
